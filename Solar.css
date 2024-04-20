@@ -1,0 +1,85 @@
+
+body,html{
+  margin:0;
+  height: 100%;
+  font-family: Tahoma;
+  background-image: url(images/solar-panel-on-blue-sky-background-PPM4HAY-1.jpg);
+  background-color: rgba(119, 118, 118, 0.5);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.main-page{
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:white;
+  text-shadow: 2px 2px 2px #333232;
+  margin-left:100px;
+  min-width: 300px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 120px;
+  margin-right: 200px;
+  width:400px;
+  height: 450px;
+  background-color: rgba(33,32,32,0.7);
+  color: white;
+  border-radius: 15px;
+  align-items: start;
+  min-width: fit-content;
+}
+
+h3,.RU,.PE,.SH,.AR{
+  display: flex;
+  margin-left: 20px;
+}
+
+#RU,#PE,#SH,#AR{
+  width:150px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.solarbutton{
+  color: white;
+  background-color: #10101a;
+  border-style: solid;
+  width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: large;
+}
+
+.solarbutton:active{
+  color: rgb(254, 254, 254);
+  background-color: #68666a;
+}
+
+#result {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
